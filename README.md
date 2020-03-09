@@ -6,4 +6,6 @@ Einfache Android-Anwendung
 
 
 App UserInterface Preview
-
+<p align="left">
+  <img src="https://github.com/mmaau/SE2Einzelphase/blob/master/Screenshot_1583751395.png" height="720" width="360">
+</p>
