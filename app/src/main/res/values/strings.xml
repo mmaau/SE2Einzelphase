@@ -2,5 +2,6 @@
     <string name="app_name">SE2Einzelphase</string>
     <string name="btn_text_calc">Berechnen</string>
     <string name="btn_text_send">Senden</string>
+    <string name="text_info">Gib deine Martikelnummer ein</string>
 
 </resources>

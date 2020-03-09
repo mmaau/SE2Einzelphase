@@ -8,35 +8,39 @@
 
     <Button
         android:id="@+id/Calculate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
         android:background="@drawable/rounded_background"
         android:text="@string/btn_text_calc"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/resultText"
-        app:layout_constraintEnd_toStartOf="@+id/sendMessage"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editText"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.193" />
 
     <Button
         android:id="@+id/sendMessage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
         android:background="@drawable/rounded_background"
         android:text="@string/btn_text_send"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/resultText"
         app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Calculate"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.193" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="237dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:hint="Martikelnummer"
         android:inputType="number"
+        android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,20 +49,24 @@
 
     <TextView
         android:id="@+id/infoText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
+        android:layout_width="248dp"
+        android:layout_height="28dp"
+        android:text="@string/text_info"
+        android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.611"
-        tools:text="Gib deine Martikelnummer ein:" />
+        app:layout_constraintVertical_bias="0.512"
+        tools:text="@string/text_info" />
 
     <TextView
         android:id="@+id/resultText"
         android:layout_width="282dp"
         android:layout_height="100dp"
+        android:textSize="16sp"
         android:gravity="center"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
