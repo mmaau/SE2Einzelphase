@@ -4,6 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+/**
+ * @Author Macher Markus, 1619162
+ *  SE2 - Einzelbeispiel --> 2.2) = Aufgabe 6
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
