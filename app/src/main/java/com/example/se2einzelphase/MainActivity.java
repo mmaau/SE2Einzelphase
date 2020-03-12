@@ -123,10 +123,12 @@ public class MainActivity extends AppCompatActivity {
         }
         Collections.sort(even);
         Collections.sort(uneven);
-        List<Character> result = new ArrayList<Character>();
-        result.addAll(even);
-        result.addAll(uneven);
-        return result.toString().replace("[","").replace("]","").replace(",","");
+        even.addAll(uneven);
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < even.size() ; i++) {
+            sb.append(even.get(i));
+        }
+        return sb.toString();
     }
 
     // pop-up notification for user if no values entered
